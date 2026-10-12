@@ -1,0 +1,12 @@
+# Tentative dependency list.
+# The exact, pinned environment will be provided together with the code release.
+
+torch>=2.0.0
+torchvision
+numpy>=1.23
+scipy
+nibabel
+scikit-image
+pandas
+tqdm
+matplotlib

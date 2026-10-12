@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Model weights / checkpoints (NEVER commit at this stage) ----
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pb
+weights/
+checkpoints/
+teacher_model_out/
+
+# ---- Data (never commit; BraTS requires registration) ----
+data/
+datasets/
+brats/
+braTS*/
+BraTS*/
+*.nii
+*.nii.gz
+*.npz
+*.h5
+
+# ---- Private / internal (safety net in case the repo root is initialized by mistake) ----
+Student/
+comparison/
+validation_figures/
+src/
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
